@@ -18,7 +18,7 @@ function setTime() {
       clearInterval(timeInt);
       document.querySelector(
         "#pbtm"
-      ).innerHTML = `<h1>Game Over Your Score is ${score}<br><span>For Again Play Press the Ctrl+R</span></h1>`;
+      ).innerHTML = `<h1>Game Over Your Score is ${score}<br><span>For Again Play Refresh the Page</span></h1>`;
     }
   }, 1000);
 }
